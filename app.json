@@ -1,0 +1,12 @@
+{
+  "name": "StarWarsExplorer",
+  "displayName": "StarWarsExplorer",
+  "expo": {
+    "name": "StarWarsExplorer",
+    "slug": "StarWarsExplorer",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
