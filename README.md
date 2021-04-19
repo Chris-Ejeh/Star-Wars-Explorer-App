@@ -45,9 +45,15 @@ People Screen | People Details Screen | Movies Screen | Movies Details Screen
 
 ```
 Use any code editor of choice.
-clone project!
+clone the project!
 
+#Start by installing expo command line tools
+npm install --global expo-cli
+
+#Install the dependencies
 npm install
+
+#Start the project 
 expo start
 press i - for IOS
 press a - for Andriod
