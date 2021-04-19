@@ -25,6 +25,12 @@ The name of various Star Wars characters/movies were quried from the SWAPI API a
 | Skin Color    |
 | Birth Year    |
 
+# Screens Mock ups
+
+People Screen | People Details Screen | Movies Screen | Movies Details Screen
+------------- | -------------- | ------------- | --------------
+<img src="https://github.com/Chris-Ejeh/Star-Wars-Explorer-App/blob/main/app/assets/images/People_Screen.PNG" width="200"> | <img src="https://github.com/Chris-Ejeh/Star-Wars-Explorer-App/blob/main/app/assets/images/People_Details.PNG" width="200"> | <img src="https://github.com/Chris-Ejeh/Star-Wars-Explorer-App/blob/main/app/assets/images/Movies_Screen.PNG" width="200"> | <img src="https://github.com/Chris-Ejeh/Star-Wars-Explorer-App/blob/main/app/assets/images/Movies_Details.PNG" width="200">
+
 # Features implemented in the App
 
 - Proper state management using Redux. :rocket:
