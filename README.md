@@ -3,9 +3,6 @@
 Created a mobile app called "Star Wars Explorer" that displays data from the Star Wars API.
 
  <img alt="node-current" src="https://img.shields.io/badge/made%20by-chris--ejeh-orange">
- <img alt="node-current" src=" https://img.shields.io/badge/React%20Native-0.64.0-red">
-
-# Images
 
 # Introduction
 
