@@ -1,12 +1,32 @@
 {
-  "name": "StarWarsExplorer",
-  "displayName": "StarWarsExplorer",
-  "expo": {
-    "name": "StarWarsExplorer",
-    "slug": "StarWarsExplorer",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  }
+	"name": "StarWarsExplorer",
+	"displayName": "StarWarsExplorer",
+	"expo": {
+		"name": "StarWarsExplorer",
+		"slug": "StarWarsExplorer",
+		"platforms": ["ios", "android", "web"],
+		"splash": {
+			"image": "./app/assets/images/star_wars.png",
+			"resizeMode": "cover",
+			"backgroundColor": "#00a8e8"
+		},
+		"version": "1.0.0",
+		"assetBundlePatterns": ["**/*"],
+		"packagerOpts": {
+			"config": "metro.config.js",
+			"sourceExts": [
+				"expo.ts",
+				"expo.tsx",
+				"expo.js",
+				"expo.jsx",
+				"ts",
+				"tsx",
+				"js",
+				"jsx",
+				"json",
+				"wasm",
+				"svg"
+			]
+		}
+	}
 }
