@@ -1,6 +1,6 @@
 # React Native Code Challenge
 
-Created a mobile app called "Star Wars Explorer" that displays data from the Star Wars API.
+Developed a Mobile App called "Star Wars Explorer" that displayed data from the Star Wars API.
 
  <img alt="node-current" src="https://img.shields.io/badge/made%20by-chris--ejeh-orange">
 
@@ -9,9 +9,9 @@ Created a mobile app called "Star Wars Explorer" that displays data from the Sta
 The Star Wars API is an open API that returns data about the Star Wars films.
 https://swapi.dev/
 
-The App renders two screens - "People" and "Movies" which can be navigated using a Bottom Tab Navigator from React Navigation (People screen is the default screen when a user launches the App).
+The App renders two screens - "People" and "Movies" which can be navigated using a Bottom Tab Navigator from React Navigation. The People screen is the default screen when a user launches the App.
 
-The name of various Star Wars characters/movies were quried from the SWAPI API and displayed on the initial screens. When you click on a list item, the new route displays extra details about the charater/movie.
+The names of various Star Wars characters and movies were queried from the SWAPI API and displayed on the initial screens (i.e the person screen displayed the name of the Star Wars character and the movies screen displayed name of the movies). When you click on a name item, you will be taken to a new route(screen) that displays extra details about the charater/movie (see mock up images below).
 
 ### The fields to be displayed for each item type are:
 
@@ -39,7 +39,7 @@ People Screen | People Details Screen | Movies Screen | Movies Details Screen
 - Modular code structure and use of components.
 - Implement “Pull to Refresh” for People lists (load more data from SWAPI).
 - Displayed images of people beside their names on the first screen.
-- Displayed a splash screen with a StarWars image on it.
+- Displayed a splash screen with a Star Wars image on it.
 
 # Installation
 
