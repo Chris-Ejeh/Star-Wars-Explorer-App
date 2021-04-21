@@ -37,7 +37,7 @@ function PeopleDetailsScreen({ route }) {
 
 const styles = StyleSheet.create({
 	container: {
-		backgroundColor: '#c1cad6',
+		backgroundColor: '#f0efeb',
 		alignItems: 'center',
 		paddingVertical: 30,
 		width: '100%',

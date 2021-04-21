@@ -49,7 +49,7 @@ function MoviesScreen({ navigation }) {
 
 const styles = StyleSheet.create({
 	container: {
-		backgroundColor: '#c1cad6',
+		backgroundColor: 'grey',
 		justifyContent: 'center',
 		padding: 10,
 		width: '100%',
