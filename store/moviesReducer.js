@@ -16,7 +16,7 @@ const slice = createSlice({
 		},
 
 		moviesReceived: (state, action) => {
-			state.list = action.payload;
+			state.list = action.payload.results;
 			state.loading = false;
 			state.error = false;
 		},

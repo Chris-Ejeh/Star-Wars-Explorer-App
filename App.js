@@ -11,7 +11,6 @@ const store = configureStore();
 export default function App() {
 	return (
 		//Provider: value={Object provided to component tree}
-
 		<Provider store={store}>
 			<NavigationContainer>
 				<StatusBar style="auto" />

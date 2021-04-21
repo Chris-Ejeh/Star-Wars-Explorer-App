@@ -20,13 +20,14 @@ function PeopleScreen({ navigation }) {
 	const people = useSelector((state) => state.entities.people.list);
 	const loading = useSelector((state) => state.entities.people.loading);
 	const refreshing = useSelector((state) => state.entities.people.refreshing);
+	const next = useSelector((state) => state.entities.people.next);
 
 	useEffect(() => {
 		dispatch(loadPeople());
 	}, []);
 	//function for loading people
 	//list of people
-
+	console.log(next);
 	return (
 		<Screen style={styles.container}>
 			{people.length === 0 ? (

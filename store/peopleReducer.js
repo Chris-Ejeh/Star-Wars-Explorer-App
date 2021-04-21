@@ -1,5 +1,4 @@
 import { createSlice } from '@reduxjs/toolkit';
-
 import { apiCallBegan } from './apiActionCreator';
 
 const slice = createSlice({
@@ -8,14 +7,15 @@ const slice = createSlice({
 		list: [],
 		loading: false,
 		refreshing: false,
+		next: '',
 	},
 	reducers: {
 		peopleRequested: (state = initialState, action) => {
 			state.loading = true;
 		},
-
 		peopleReceived: (state, action) => {
-			state.list = action.payload;
+			state.list = action.payload.results;
+			state.next = action.payload.next;
 			state.loading = false;
 		},
 		peopleRequestFailed: (state, action) => {
@@ -23,14 +23,8 @@ const slice = createSlice({
 		},
 		peopleAdded: (state, action) => {
 			state.refreshing = true;
-			const newArr = action.payload;
-			newArr.filter((e) => {
-				if ((state.refreshing = false)) state.loading = false;
-				return state.list.unshift({ ...e });
-			});
-			// state.list.unshift(action.payload);
-			// state.refreshing = false;
-			// state.loading = false;
+			state.list.unshift(...action.payload.results);
+			state.refreshing = false;
 		},
 	},
 });

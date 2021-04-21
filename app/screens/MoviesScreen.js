@@ -11,7 +11,6 @@ import ActivityIndicator from '../components/ActivityIndicator';
 import ListCard from '../components/ListCard';
 import routes from '../navigation/routes';
 import Screen from '../components/Screen';
-import colors from '../config/colors';
 
 const image = require('../assets/images/people_photo.jpeg');
 
